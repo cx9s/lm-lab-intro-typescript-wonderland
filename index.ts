@@ -15,10 +15,10 @@ function failImmediately(): void {
   return endAdventure();
 }
 
-const numberBiggerThanThree: Number = 11; // 👉 FIXME ❌
+const numberBiggerThanThree: number = 11; // 👉 FIXME ❌
 
 // 👉 FIXME ❌
-function checkEntryCodeIsBiggerThanThree(code: Number) {
+function checkEntryCodeIsBiggerThanThree(code: number) {
   return code > 3; // 👉 FIXME ❌
 }
 
